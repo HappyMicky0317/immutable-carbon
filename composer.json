@@ -1,0 +1,35 @@
+{
+    "name": "timacdonald/immutable-carbon",
+    "description": "An attempt to make the Carbon date library immutable.",
+    "keywords": [
+        "date",
+        "time",
+        "DateTime",
+        "immutable"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim MacDonald",
+            "email": "tim.mac7@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "nesbot/carbon": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImmutableCarbon\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
